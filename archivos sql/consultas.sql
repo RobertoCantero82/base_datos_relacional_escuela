@@ -68,7 +68,7 @@ GROUP BY p.nombre;
 -- 9. Cuántos aptos y no aptos tiene cada proyecto
 
 SELECT DISTINCT a.nombre as alumno
-FROM alumnos as a**
+FROM alumnos as a
 JOIN notas as n ON a.id_alumno = n.id_alumno
 WHERE n.resultado = 'No Apto';
 
