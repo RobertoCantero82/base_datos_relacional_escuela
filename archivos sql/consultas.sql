@@ -6,7 +6,7 @@ SELECT * FROM alumnos;
 
 -- 2. Contar cuántos alumnos hay en total
 
-SELECT COUNT(*) FROM alumnos
+SELECT COUNT(*) FROM alumnos;
 
 -- (Selecciona el conteo de filas de la tabla alumnos)
 
@@ -47,30 +47,31 @@ JOIN proyectos as pr ON n.id_proyecto = pr.id_proyecto;
 
 -- 7. Contar cuántos alumnos hay por promoción
 
-SELECT a.nombre, pr.nombre as proyecto, n.resultado
-FROM notas as n**
-JOIN alumnos as a ON n.id_alumno = a.id_alumno
-JOIN proyectos as pr ON n.id_proyecto = pr.id_proyecto;
+SELECT p.nombre, COUNT(a.id_alumno) as total_alumnos
+FROM promociones as p
+JOIN alumnos as a ON p.id_promocion = a.id_promocion
+GROUP BY p.nombre;
 
 -- (Selecciona el nombre de la promoción y el conteo de alumnos, desde promociones 
 -- unida a alumnos donde el id_promocion coincida, agrupando por nombre de promoción)
 
 -- 8. Alumnos que han suspendido algún proyecto
 
-SELECT p.nombre, COUNT(a.id_alumno) as total_alumnos
-FROM promociones as p
-JOIN alumnos as a ON p.id_promocion = a.id_promocion
-GROUP BY p.nombre;
+SELECT DISTINCT a.nombre as alumno
+FROM alumnos as a
+JOIN notas as n ON a.id_alumno = n.id_alumno
+WHERE n.resultado = 'No Apto';
 
 -- (Selecciona los nombres únicos de alumnos, desde alumnos unida a notas 
 -- donde el id_alumno coincida, filtrando solo los que tienen resultado 'No Apto')
 
 -- 9. Cuántos aptos y no aptos tiene cada proyecto
 
-SELECT DISTINCT a.nombre as alumno
-FROM alumnos as a
-JOIN notas as n ON a.id_alumno = n.id_alumno
-WHERE n.resultado = 'No Apto';
+SELECT pr.nombre as proyecto, n.resultado, COUNT(*) as total
+FROM notas as n
+JOIN proyectos as pr ON n.id_proyecto = pr.id_proyecto
+GROUP BY pr.nombre, n.resultado
+ORDER BY pr.nombre;
 
 -- (Selecciona el nombre del proyecto, el resultado y el conteo, desde notas 
 -- unida a proyectos donde el id_proyecto coincida, agrupando por nombre de proyecto 
