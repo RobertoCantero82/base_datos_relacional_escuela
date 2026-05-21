@@ -1,12 +1,25 @@
 <div align="center">
 
-# Base de Datos Relacional · Escuela de Bootcamps
+<br>
+
+<!-- badge pill "PROYECTO BBDD · BOOTCAMP" -->
+<img src="https://img.shields.io/badge/PROYECTO_BBDD-BOOTCAMP-4A90D9?style=flat-square&labelColor=D6E4F7&color=2E6DB4" alt="Proyecto BBDD Bootcamp"/>
+
+<br><br>
+
+# Base de Datos Relacional · The Bridge
 
 **Ainara · Estibaliz · Iqra · Roberto**
 
 <br>
 
-![Diagrama E/R animado](recursos/erd.svg)
+![Diagrama E/R animado](erd.svg)
+
+<br>
+
+[![Ver diagrama interactivo](https://img.shields.io/badge/▶_Explorar_diagrama_interactivo-2E6DB4?style=for-the-badge&logoColor=white)](https://robertocantero82.github.io/base_datos_relacional_escuela/erd_interactivo.html)
+
+<br>
 
 </div>
 
@@ -18,10 +31,11 @@ A partir de un conjunto de datos sin normalizar sobre estudiantes y profesores d
 
 ## Tecnologías
 
-- **PostgreSQL** — sistema gestor de base de datos
-- **Render** — alojamiento de la base de datos en la nube
-- **Python / Pandas** — carga e ingesta de datos
-- **Jupyter Notebook** — desarrollo y consultas
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4A90D9?style=flat-square&logo=postgresql&logoColor=white)
+![Python](https://img.shields.io/badge/Python-7BBCE8?style=flat-square&logo=python&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-2E6DB4?style=flat-square&logo=pandas&logoColor=white)
+![Render](https://img.shields.io/badge/Render-1E4A7A?style=flat-square&logo=render&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-B8D8F5?style=flat-square&logo=jupyter&logoColor=1E4A7A)
 
 ## Estructura del repositorio
 
@@ -31,8 +45,7 @@ A partir de un conjunto de datos sin normalizar sobre estudiantes y profesores d
 ├── memoria/           # Documentación del proceso
 ├── modelos/           # Diagramas E/R y modelo lógico
 ├── presentacion/      # Material de presentación final
-├── recursos/
-│   └── erd.svg        # Diagrama E/R animado
+├── erd.svg            # Diagrama E/R animado (hero del README)
 └── Proyecto_BBDD.md   # Enunciado del proyecto
 ```
 
@@ -55,9 +68,10 @@ A partir de un conjunto de datos sin normalizar sobre estudiantes y profesores d
 
 1. **Modelado E/R** — diseño de entidades, atributos y relaciones
 2. **Modelo lógico** — definición de tablas, claves primarias y foráneas
-3. **Normalización** — eliminación de redundancias e integridad de datos
-4. **Creación e ingesta** — scripts SQL y carga de datos con Pandas
-5. **Consultas** — queries de demostración sobre la base de datos funcional
+3. **Despliegue en Render** — base de datos PostgreSQL alojada y accesible desde aplicaciones externas
+4. **Normalización** — eliminación de redundancias e integridad de datos
+5. **Creación e ingesta** — scripts SQL y carga de datos con Pandas
+6. **Consultas** — queries de demostración sobre la base de datos funcional
 
 ## Escalabilidad
 
@@ -67,14 +81,18 @@ El diseño contempla el crecimiento en múltiples dimensiones: campus (Madrid, V
 
 <div align="center">
 
-| Nombre | Perfil |
-|--------|--------|
-| Ainara | Data Science / Full Stack |
-| Estibaliz | Data Science / Full Stack |
-| Iqra | Data Science / Full Stack |
-| Roberto | Data Science / Full Stack |
+<br>
+
+![Ainara](https://img.shields.io/badge/Ainara-D6E4F7?style=for-the-badge&labelColor=4A90D9&color=D6E4F7&logoColor=1E4A7A)
+![Estibaliz](https://img.shields.io/badge/Estibaliz-D6E4F7?style=for-the-badge&labelColor=2E6DB4&color=D6E4F7)
+![Iqra](https://img.shields.io/badge/Iqra-D6E4F7?style=for-the-badge&labelColor=4A90D9&color=D6E4F7)
+![Roberto](https://img.shields.io/badge/Roberto-D6E4F7?style=for-the-badge&labelColor=1E4A7A&color=D6E4F7)
+
+<br>
 
 *Ainara, Estibaliz, Iqra y Roberto colaboraron en todas las fases,*
 *desde el diseño inicial del modelo hasta la presentación final.*
+
+<br>
 
 </div>
