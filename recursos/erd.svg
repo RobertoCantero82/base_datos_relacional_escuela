@@ -1,0 +1,163 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 500" width="680" height="500">
+<defs><style>
+  @keyframes pulse  { 0%,100%{opacity:.12;r:26} 50%{opacity:.5;r:34} }
+  @keyframes pulse2 { 0%,100%{opacity:.06;r:38} 50%{opacity:.2;r:48} }
+  @keyframes f0 { 0%,100%{transform:translateY(0)}   50%{transform:translateY(-5px)} }
+  @keyframes f1 { 0%,100%{transform:translateY(-3px)} 50%{transform:translateY(3px)} }
+  .r1{animation:pulse  2.8s ease-in-out infinite}
+  .r2{animation:pulse2 2.8s ease-in-out infinite}
+  .n0{animation:f0 4.2s ease-in-out infinite}
+  .n1{animation:f1 4.6s ease-in-out infinite .3s}
+  .n2{animation:f0 3.9s ease-in-out infinite .6s}
+  .n3{animation:f1 4.4s ease-in-out infinite .2s}
+  .n4{animation:f0 4.8s ease-in-out infinite .5s}
+  .n5{animation:f1 4.0s ease-in-out infinite .8s}
+  .n6{animation:f0 4.5s ease-in-out infinite .1s}
+  .n7{animation:f1 3.8s ease-in-out infinite .4s}
+  .n8{animation:f0 4.1s ease-in-out infinite .7s}
+  .n9{animation:f1 4.3s ease-in-out infinite .9s}
+  @keyframes t0{0%{offset-distance:0%}  100%{offset-distance:100%}}
+  @keyframes t1{0%{offset-distance:12%} 100%{offset-distance:112%}}
+  @keyframes t2{0%{offset-distance:24%} 100%{offset-distance:124%}}
+  @keyframes t3{0%{offset-distance:36%} 100%{offset-distance:136%}}
+  @keyframes t4{0%{offset-distance:48%} 100%{offset-distance:148%}}
+  @keyframes t5{0%{offset-distance:60%} 100%{offset-distance:160%}}
+  @keyframes t6{0%{offset-distance:72%} 100%{offset-distance:172%}}
+  @keyframes t7{0%{offset-distance:84%} 100%{offset-distance:184%}}
+  @keyframes t8{0%{offset-distance:6%}  100%{offset-distance:106%}}
+  @keyframes t9{0%{offset-distance:54%} 100%{offset-distance:154%}}
+  .d0{offset-path:path('M340,225 Q262,180 208,158');animation:t0 2.8s linear infinite}
+  .d1{offset-path:path('M340,225 Q372,148 400,120');animation:t1 3.1s linear infinite}
+  .d2{offset-path:path('M340,225 Q438,192 472,178');animation:t2 2.6s linear infinite}
+  .d3{offset-path:path('M340,225 Q458,252 480,292');animation:t3 3.4s linear infinite}
+  .d4{offset-path:path('M340,225 Q402,328 392,378');animation:t4 2.9s linear infinite}
+  .d5{offset-path:path('M340,225 Q292,328 278,378');animation:t5 3.2s linear infinite}
+  .d6{offset-path:path('M340,225 Q222,295 202,280');animation:t6 2.7s linear infinite}
+  .d7{offset-path:path('M340,225 Q216,200 208,158');animation:t7 3.0s linear infinite}
+  .d8{offset-path:path('M208,158 Q166,128 148,112');animation:t8 2.5s linear infinite}
+  .d9{offset-path:path('M392,378 Q442,408 472,400');animation:t9 3.3s linear infinite}
+  .edge{fill:none;stroke-width:.9}
+  .lbl{font:500 11px system-ui,sans-serif;fill:#fff;text-anchor:middle;dominant-baseline:central}
+  .sub{font:9px system-ui,sans-serif;fill:#aaa;text-anchor:middle;dominant-baseline:central}
+</style></defs>
+
+<rect width="680" height="500" fill="#f0efe8"/>
+
+<!-- edges -->
+<path class="edge" d="M340,225 Q262,180 208,158" stroke="#1D9E7548"/>
+<path class="edge" d="M340,225 Q372,148 400,120" stroke="#D85A3048"/>
+<path class="edge" d="M340,225 Q438,192 472,178" stroke="#185FA548"/>
+<path class="edge" d="M340,225 Q458,252 480,292" stroke="#854F0B48"/>
+<path class="edge" d="M340,225 Q402,328 392,378" stroke="#3B6D1148"/>
+<path class="edge" d="M340,225 Q292,328 278,378" stroke="#0F6E5648"/>
+<path class="edge" d="M340,225 Q222,295 202,280" stroke="#534AB748"/>
+<path class="edge" d="M340,225 Q216,200 208,158" stroke="#7F77DD48"/>
+<path class="edge" d="M208,158 Q166,128 148,112" stroke="#1D9E7548"/>
+<path class="edge" d="M392,378 Q442,408 472,400" stroke="#993C1D48"/>
+
+<!-- travelling dots -->
+<circle class="d0" r="3.5" fill="#1D9E75dd"/>
+<circle class="d1" r="3.5" fill="#D85A30dd"/>
+<circle class="d2" r="3.5" fill="#185FA5dd"/>
+<circle class="d3" r="3.5" fill="#854F0Bdd"/>
+<circle class="d4" r="3.5" fill="#3B6D11dd"/>
+<circle class="d5" r="3.5" fill="#0F6E56dd"/>
+<circle class="d6" r="3.5" fill="#534AB7dd"/>
+<circle class="d7" r="3.5" fill="#7F77DDdd"/>
+<circle class="d8" r="3.5" fill="#1D9E75dd"/>
+<circle class="d9" r="3.5" fill="#993C1Ddd"/>
+
+<!-- pulso centro -->
+<circle cx="340" cy="225" r="26" fill="none" stroke="#C0436A" class="r1"/>
+<circle cx="340" cy="225" r="38" fill="none" stroke="#C0436A" class="r2"/>
+
+<!-- NODE: promociones (centro) -->
+<g class="n0">
+  <rect x="281" y="208" width="118" height="34" rx="8" fill="#fff" stroke="#ddd" stroke-width=".5"/>
+  <rect x="281" y="208" width="118" height="15" rx="8" fill="#C0436A"/>
+  <rect x="281" y="215" width="118" height="8"  fill="#C0436A"/>
+  <text class="lbl" x="340" y="217">promociones</text>
+  <text class="sub" x="340" y="234">6 campos</text>
+</g>
+
+<!-- NODE: profesores -->
+<g class="n1">
+  <rect x="149" y="141" width="118" height="34" rx="8" fill="#fff" stroke="#ddd" stroke-width=".5"/>
+  <rect x="149" y="141" width="118" height="15" rx="8" fill="#1D9E75"/>
+  <rect x="149" y="148" width="118" height="8"  fill="#1D9E75"/>
+  <text class="lbl" x="208" y="150">profesores</text>
+  <text class="sub" x="208" y="167">3 campos</text>
+</g>
+
+<!-- NODE: sedes -->
+<g class="n2">
+  <rect x="341" y="103" width="118" height="34" rx="8" fill="#fff" stroke="#ddd" stroke-width=".5"/>
+  <rect x="341" y="103" width="118" height="15" rx="8" fill="#D85A30"/>
+  <rect x="341" y="110" width="118" height="8"  fill="#D85A30"/>
+  <text class="lbl" x="400" y="112">sedes</text>
+  <text class="sub" x="400" y="129">2 campos</text>
+</g>
+
+<!-- NODE: modalidades -->
+<g class="n3">
+  <rect x="413" y="161" width="118" height="34" rx="8" fill="#fff" stroke="#ddd" stroke-width=".5"/>
+  <rect x="413" y="161" width="118" height="15" rx="8" fill="#185FA5"/>
+  <rect x="413" y="168" width="118" height="8"  fill="#185FA5"/>
+  <text class="lbl" x="472" y="170">modalidades</text>
+  <text class="sub" x="472" y="187">2 campos</text>
+</g>
+
+<!-- NODE: cursos -->
+<g class="n4">
+  <rect x="421" y="275" width="118" height="34" rx="8" fill="#fff" stroke="#ddd" stroke-width=".5"/>
+  <rect x="421" y="275" width="118" height="15" rx="8" fill="#854F0B"/>
+  <rect x="421" y="282" width="118" height="8"  fill="#854F0B"/>
+  <text class="lbl" x="480" y="284">cursos</text>
+  <text class="sub" x="480" y="301">3 campos</text>
+</g>
+
+<!-- NODE: notas -->
+<g class="n5">
+  <rect x="333" y="361" width="118" height="34" rx="8" fill="#fff" stroke="#ddd" stroke-width=".5"/>
+  <rect x="333" y="361" width="118" height="15" rx="8" fill="#3B6D11"/>
+  <rect x="333" y="368" width="118" height="8"  fill="#3B6D11"/>
+  <text class="lbl" x="392" y="370">notas</text>
+  <text class="sub" x="392" y="387">4 campos</text>
+</g>
+
+<!-- NODE: alumnos -->
+<g class="n6">
+  <rect x="219" y="361" width="118" height="34" rx="8" fill="#fff" stroke="#ddd" stroke-width=".5"/>
+  <rect x="219" y="361" width="118" height="15" rx="8" fill="#0F6E56"/>
+  <rect x="219" y="368" width="118" height="8"  fill="#0F6E56"/>
+  <text class="lbl" x="278" y="370">alumnos</text>
+  <text class="sub" x="278" y="387">4 campos</text>
+</g>
+
+<!-- NODE: asignaciones -->
+<g class="n7">
+  <rect x="143" y="263" width="118" height="34" rx="8" fill="#fff" stroke="#ddd" stroke-width=".5"/>
+  <rect x="143" y="263" width="118" height="15" rx="8" fill="#534AB7"/>
+  <rect x="143" y="270" width="118" height="8"  fill="#534AB7"/>
+  <text class="lbl" x="202" y="272">asignaciones</text>
+  <text class="sub" x="202" y="289">3 campos</text>
+</g>
+
+<!-- NODE: roles -->
+<g class="n8">
+  <rect x="89"  y="95"  width="118" height="34" rx="8" fill="#fff" stroke="#ddd" stroke-width=".5"/>
+  <rect x="89"  y="95"  width="118" height="15" rx="8" fill="#7F77DD"/>
+  <rect x="89"  y="102" width="118" height="8"  fill="#7F77DD"/>
+  <text class="lbl" x="148" y="104">roles</text>
+  <text class="sub" x="148" y="121">3 campos</text>
+</g>
+
+<!-- NODE: proyectos -->
+<g class="n9">
+  <rect x="413" y="383" width="118" height="34" rx="8" fill="#fff" stroke="#ddd" stroke-width=".5"/>
+  <rect x="413" y="383" width="118" height="15" rx="8" fill="#993C1D"/>
+  <rect x="413" y="390" width="118" height="8"  fill="#993C1D"/>
+  <text class="lbl" x="472" y="392">proyectos</text>
+  <text class="sub" x="472" y="409">3 campos</text>
+</g>
+</svg>
