@@ -1,25 +1,21 @@
 <div align="center">
-
 <br>
 
-<!-- badge pill "PROYECTO BBDD · BOOTCAMP" -->
-<img src="https://img.shields.io/badge/PROYECTO_BBDD-BOOTCAMP-4A90D9?style=flat-square&labelColor=D6E4F7&color=2E6DB4" alt="Proyecto BBDD Bootcamp"/>
+<img src="erd_animated.gif" alt="Diagrama E/R animado — Base de Datos Relacional The Bridge" width="100%"/>
 
 <br><br>
 
-# Base de Datos Relacional · The Bridge
+<h1>Base de Datos Relacional · The Bridge</h1>
 
-**Ainara · Estibaliz · Iqra · Roberto**
-
-<br>
-
-![Diagrama E/R animado](erd.svg)
+<p><strong>Ainara · Estibaliz · Iqra · Roberto</strong></p>
 
 <br>
 
-[![Ver diagrama interactivo](https://img.shields.io/badge/▶_Explorar_diagrama_interactivo-2E6DB4?style=for-the-badge&logoColor=white)](https://robertocantero82.github.io/base_datos_relacional_escuela/erd_interactivo.html)
+<a href="https://robertocantero82.github.io/base_datos_relacional_escuela/erd_interactivo.html">
+  <img src="https://img.shields.io/badge/▶%20Explorar%20diagrama%20interactivo-2E6DB4?style=for-the-badge" alt="Ver diagrama interactivo"/>
+</a>
 
-<br>
+<br><br>
 
 </div>
 
@@ -80,19 +76,17 @@ El diseño contempla el crecimiento en múltiples dimensiones: campus (Madrid, V
 ## Equipo
 
 <div align="center">
-
 <br>
 
-![Ainara](https://img.shields.io/badge/Ainara-D6E4F7?style=for-the-badge&labelColor=4A90D9&color=D6E4F7&logoColor=1E4A7A)
-![Estibaliz](https://img.shields.io/badge/Estibaliz-D6E4F7?style=for-the-badge&labelColor=2E6DB4&color=D6E4F7)
-![Iqra](https://img.shields.io/badge/Iqra-D6E4F7?style=for-the-badge&labelColor=4A90D9&color=D6E4F7)
-![Roberto](https://img.shields.io/badge/Roberto-D6E4F7?style=for-the-badge&labelColor=1E4A7A&color=D6E4F7)
+| &nbsp; | Nombre | Perfil |
+|:---:|---|---|
+| 🔵 | Ainara | Data Science / Full Stack |
+| 🔵 | Estibaliz | Data Science / Full Stack |
+| 🔵 | Iqra | Data Science / Full Stack |
+| 🔵 | Roberto | Data Science / Full Stack |
 
 <br>
-
-*Ainara, Estibaliz, Iqra y Roberto colaboraron en todas las fases,*
-*desde el diseño inicial del modelo hasta la presentación final.*
-
-<br>
-
+<em>Ainara, Estibaliz, Iqra y Roberto colaboraron en todas las fases,<br>
+desde el diseño inicial del modelo hasta la presentación final.</em>
+<br><br>
 </div>
